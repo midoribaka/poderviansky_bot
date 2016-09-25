@@ -1,2 +1,2 @@
 # poderviansky_bot
-Usse telebot library.
+Uses telebot library.

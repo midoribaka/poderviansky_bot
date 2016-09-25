@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import telebot
+import config
 import random
 
-bot = telebot.TeleBot(input('Please, enter token:'))
+bot = telebot.TeleBot(config.token)
 
 text = []
 with open('text') as f:
